@@ -4,7 +4,7 @@
 *.log
 *.pot
 .DS_Store
-.coverage/
+.coverage
 .eggs/
 .idea/
 .project/
@@ -23,7 +23,6 @@ env/
 .sass-cache
 *.css.map
 npm-debug.log
-package-lock.json
 
 local.sqlite
 testdb.sqlite*

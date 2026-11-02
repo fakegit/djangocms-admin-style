@@ -3,8 +3,89 @@ Changelog
 =========
 
 Unreleased
+==========
+
+* Remove unused installed-version and check-type query parameters from the update
+  check's request to PyPI.org and clarify its browser-cookie behavior.
+
+3.3.0 (2024-01-14)
 ==================
 
+* Allow more than two columns (as in the original Django admin)
+* Adjust flex-container in newer Django versions (4.2+) for submit row and admin header
+* Fix help texts for checkboxes and radio buttons
+* Fix logout menu entry to work with Django 5
+
+3.2.7 (2024-01-04)
+==================
+
+* Style delete links
+* Fix read-only fields overlapping with their labels
+* Adjust flex-container in newer Django versions
+
+3.2.6 (2023-09-18)
+==================
+
+* Fix bug which adds 'data-theme="undefined"' to admin html tag
+* Fix broken styling with `.flex-container`
+* Fix broken color input (#429)
+* Add Django as requirement in setup.py (#423)
+
+
+3.2.5 (2023-08-22)
+==================
+
+* Add support for Django 4.2+ dark mode switch buttons
+* Add support for Django 4 view related admin buttons
+* Improve styling compatibility with Django 4.2
+* Add support for search field in admin nav (new in Django 4.2)
+
+3.2.4 (2023-04-25)
+==================
+
+* Fix page tree dropdown cross styling
+* Fix misaligned apphooks in changelist views.
+
+
+3.2.3 (2023-01-13)
+==================
+
+* Fix paginator element overflowing its container.
+
+
+3.2.2 (2023-01-06)
+==================
+
+* Fix support of django-shortcuts with original icons from django-shortcuts
+
+3.2.1 (2022-12-15)
+==================
+
+* Check updates based on pypi releases
+* Fix too large margin for change list in modal window
+* Removed unused css generating conflicts for icons fonts of
+  djangocms-admin-style and django-cms core.
+
+3.2.0 (2022-06-13)
+==================
+
+* Added configurable dark mode (color scheme)
+
+3.1.1 (2022-04-13)
+==================
+
+* Fix: Missing drop shadows and unreadable button coloring on hover
+
+3.1.0 (2022-03-27)
+==================
+
+* Add dark mode depending on system settings
+
+3.0.0 (2022-01-22)
+==================
+
+* Drop support for python 3.5, 3.6 and django 3.0
+* Increase calendar box width to show Sundays
 * Fix datetime fields layout
 * Fix modal layout issue
 * Improve readability in form
